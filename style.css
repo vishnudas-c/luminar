@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-link {
+    font-family: "Segoe UI";
+    font-size: 18px;
+    color: #313131;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+.nav-link:hover{
+    color:#6d1d8e;  
+}
+.nav-link:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background:#6d1d8e;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+.nav-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+#navbarTogglerDemo03{
+    margin-left: 200px;
+    line-height: 15px;
+    font-size: 20px;
+
+}
+#navbarTogglerDemo03 li{
+    margin: 15px;
+}
+.caption h1{
+   font-weight: 700;
+    color:#6d1d8e;
+     font-family:'Roboto Slab';
+}
+.navbar-brand{
+    margin-left: 400px;
+}
+.banner{
+    background-color:#f9f9f9;
+    width: 100%;
+    height: 550px;
+    display: flex;
+
+}
+.gallery img{
+    object-fit:fill;
+}
+.gallery h5{
+    color:#6d1d8e;
+    
+}
+.card-body{
+    background-color: #eeeeee;
+}
+.card-body:hover{
+    background-color:#6d1d8e;
+    color: aliceblue;
+    transition: all 1s;
+    h5{
+        color: aliceblue;
+        transition: all 1s;
+    }
+   
+}
+.placeh{
+padding: 80px;
+}
+.caption{
+    width: 1000px;
+    padding: 200px;
+    padding-left: 300px;
+}
+.caption2{
+    background-image: url(./img/pexels-kindel-media-7054785.47b27e7d.png);
+    width: 100%;
+    height: 600px;
+}
+.autocmpny{
+    height: 150px;
+    width: 300px;
+}
+#btn{ 
+    margin-left: 50%;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #6d1d8e;
+
+}
+.b1{
+    padding:5px;
+    background-color: #6d1d8e;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: all 1s;
+    position: sticky;
+    top:40%;
+    left: 96%;
+}
+.b2{
+    padding: 5px;
+    background-color: rgb(43, 255, 0);
+    border-radius: 100%;
+    position: sticky;
+    top: 40%;
+}
+.autocmpny img{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+}
+.autocmpny img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+.logos i{
+    margin: 10px;
+}
+.logos{
+    margin-left: 38px;
+}
+.cr{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin: 11px;
+}
